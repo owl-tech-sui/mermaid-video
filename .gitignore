@@ -1,0 +1,22 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Remotion output
+out
+*.mp4
+
+# Claude/Agent local config
+.agents/
+.claude/
+
+# Screenshots and local media
+screenshots/
+
+# Development logs (Japanese)
+検証記録.md
+
+# Remotion template files (not needed for this project)
+src/HelloWorld/
+src/HelloWorld.tsx

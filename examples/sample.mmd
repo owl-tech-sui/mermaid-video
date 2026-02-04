@@ -1,0 +1,6 @@
+flowchart TD
+    A[Start] -->|Step 1| B[Process]
+    B --> C{Decision}
+    C -->|Yes| D[Success]
+    C -->|No| E[Retry]
+    E --> B

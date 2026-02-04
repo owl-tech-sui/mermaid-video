@@ -1,0 +1,4 @@
+flowchart TD
+    A[Input] --> B[Validate] --> C[Process] --> D[Output]
+    C -->|Error| E[Log]
+    E --> B
